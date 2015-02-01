@@ -1,0 +1,55 @@
+bower jquery.cookie#~1.4.0               old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower angular-loading-bar#~0.6.0         old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower Angular-At-Directive#master   invalid-meta Angular-At-Directive is missing "main" entry in bower.json
+bower Angular-At-Directive#master   invalid-meta Angular-At-Directive is missing "ignore" entry in bower.json
+bower angular-ui#~0.4.0                  old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower angular-ui-select2#*               old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower angular-ui-utils#0.1.0             old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower angular-bootstrap#~0.12.0          old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower bootstrap-tour#~0.8.1              old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower bootstrap-growl#master        invalid-meta bootstrap-growl is missing "main" entry in bower.json
+bower bootstrap-growl#master        invalid-meta bootstrap-growl is missing "ignore" entry in bower.json
+bower github-buttons#*                   old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower marked#~0.2.9                      old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower js-emoji#*                    invalid-meta js-emoji is missing "main" entry in bower.json
+bower js-emoji#*                    invalid-meta js-emoji is missing "ignore" entry in bower.json
+bower sticky#*                           old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower swagger-ui#*                       old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower ngInfiniteScroll#1.0.0             old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower BrowserQuest#*                     old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower jquery-colorbox#~1.4.36            old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower jquery#~2.1.0                      old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower css-social-buttons#*          invalid-meta css-social-buttons is missing "main" entry in bower.json
+bower css-social-buttons#*          invalid-meta css-social-buttons is missing "ignore" entry in bower.json
+bower angular-filter#~0.5.1              old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower hello#~1.3.1                       old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower jquery-ui#~1.10.3                  old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower angular-ui-router#~0.2.13          old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower bootstrap#~3.1.0                   old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower pnotify#~1.3.1                     old-git It seems you are using an old version of git, it will be slower and propitious to errors!
+bower habitrpg-shared#develop       invalid-meta habitrpg-shared is missing "main" entry in bower.json
+bower habitrpg-shared#develop       invalid-meta habitrpg-shared is missing "ignore" entry in bower.json
+bower angular-ui#~0.4.0             invalid-meta angular-ui is missing "main" entry in bower.json
+bower angular-ui#~0.4.0             invalid-meta angular-ui is missing "ignore" entry in bower.json
+bower angular-ui-select2#*          invalid-meta angular-ui-select2 is missing "ignore" entry in bower.json
+bower angular-ui-utils#0.1.0        invalid-meta angular-ui-utils is missing "ignore" entry in bower.json
+bower angular-bootstrap#~0.12.0     invalid-meta angular-bootstrap is missing "ignore" entry in bower.json
+bower bootstrap-tour#~0.8.1         invalid-meta bootstrap-tour is missing "ignore" entry in bower.json
+bower github-buttons#*              invalid-meta github-buttons is missing "main" entry in bower.json
+bower github-buttons#*              invalid-meta github-buttons is missing "ignore" entry in bower.json
+bower marked#~0.2.9                 invalid-meta marked is missing "main" entry in bower.json
+bower marked#~0.2.9                 invalid-meta marked is missing "ignore" entry in bower.json
+bower swagger-ui#*                  invalid-meta swagger-ui is missing "main" entry in bower.json
+bower swagger-ui#*                  invalid-meta swagger-ui is missing "ignore" entry in bower.json
+bower ngInfiniteScroll#1.0.0        invalid-meta ngInfiniteScroll is missing "ignore" entry in bower.json
+bower BrowserQuest#*                invalid-meta BrowserQuest is missing "main" entry in bower.json
+bower BrowserQuest#*                invalid-meta BrowserQuest is missing "ignore" entry in bower.json
+bower hello#~1.3.1                      mismatch Version declared in the json (1.3.2) is different than the resolved one (1.3.7)
+bower jquery-ui#~1.10.3             invalid-meta jquery-ui is missing "ignore" entry in bower.json
+bower jquery-colorbox#~1.4.36            ECMDERR Failed to execute "git checkout b7ea7646c0d28502db300b5f37ca5c92ad6a61c8", exit code of #1
+
+Additional error details:
+error: The following untracked working tree files would be overwritten by checkout:
+	i18n/jquery.colorbox-pt-br.js
+Please move or remove them before you can switch branches.
+Aborting
