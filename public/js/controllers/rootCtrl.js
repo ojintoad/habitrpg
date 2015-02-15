@@ -164,9 +164,9 @@ habitrpg.controller("RootCtrl", ['$scope', '$rootScope', '$location', 'User', '$
           $rootScope.charts[id] = (history.length == 0) ? false : !$rootScope.charts[id];
           if (task && task._editing) task._editing = false;
       }
-      matrix = [['Date', 'Score']];
+      matrix = [[env.t('date'), env.t('score')]];
       _.each(history, function(obj) {
-        matrix.push([moment(obj.date).format('MM/DD/YY'), obj.value]);
+        matrix.push([moment(obj.date).format(User.user.preferences.dateFormat.toUpperCase().replace('YYYY','YY') ), obj.value]);
       });
       data = google.visualization.arrayToDataTable(matrix);
       options = {
@@ -220,7 +220,7 @@ habitrpg.controller("RootCtrl", ['$scope', '$rootScope', '$location', 'User', '$
 
       $http.post(ApiUrl.get() + '/api/v2/user/class/cast/'+spell.key+'?targetType='+type+'&targetId='+targetId)
       .success(function(){
-        var msg = window.env.t('youCast', {spell: spell.text()}); 
+        var msg = window.env.t('youCast', {spell: spell.text()});
         switch (type) {
          case 'task': msg = window.env.t('youCastTarget', {spell: spell.text(), target: target.text});break;
          case 'user': msg = window.env.t('youCastTarget', {spell: spell.text(), target: target.profile.name});break;
@@ -241,6 +241,15 @@ habitrpg.controller("RootCtrl", ['$scope', '$rootScope', '$location', 'User', '$
     $rootScope.hardRedirect = function(url){
       window.location.href = url;
       window.location.reload(false);
+    }
+
+    // Universal method for sending HTTP methods
+    $rootScope.http = function(method, route, data, alertMsg){
+      $http[method](ApiUrl.get() + route, data).success(function(){
+        if (alertMsg) Notification.text(window.env.t(alertMsg));
+        User.sync();
+      });
+      // error will be handled via $http interceptor
     }
   }
 ]);

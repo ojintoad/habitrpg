@@ -26,7 +26,7 @@
     "angular-loading-bar": "https://github.com/chieffancypants/angular-loading-bar.git#~0.6.0",
     "bootstrap": "https://github.com/twbs/bootstrap.git#~3.1.0",
     "bootstrap-growl": "git://github.com/ifightcrime/bootstrap-growl.git#master",
-    "bootstrap-tour": "https://github.com/sorich87/bootstrap-tour.git#~0.8.1",
+    "bootstrap-tour": "https://github.com/sorich87/bootstrap-tour.git#~0.10.1",
     "habitrpg-shared": "git://github.com/HabitRPG/habitrpg-shared.git#develop",
     "BrowserQuest": "https://github.com/browserquest/BrowserQuest.git",
     "github-buttons": "https://github.com/mdo/github-buttons.git",
